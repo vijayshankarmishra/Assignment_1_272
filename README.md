@@ -13,9 +13,9 @@ Guess the word with missing letters! Each round shows a hidden word like `a_go_i
 1) Open the folder `web/`.
 2) Double-click `index.html` to open it in your browser.
 
-That’s it!
+That's it!
 
-## 🐳 Run with Docker (recommended)
+## �� Run with Docker (recommended)
 From the project folder:
 ```bash
 docker compose up --build
@@ -44,4 +44,4 @@ word-quiz/
 - Add more words in `web/app.js` (the `WORD_BANK` list).
 - Change rounds in `app.js` → `totalRounds`.
 
-Have fun! ��
+Have fun! 🎈
