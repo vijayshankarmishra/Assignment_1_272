@@ -120,18 +120,27 @@ Access app at: http://localhost:8080
 
 ## 5. Graphical Results
 ### 🖥️ VM Graphs
-VM Memory Usage
+
+#### VM Memory Usage
+![VM Memory Usage](VM_Images/mem_container.png)
+
+#### VM Reboot Time
+![VM Reboot Time](VM_Images/reboot.png)
 
 
+#### VM Response Time
+![VM Response Time](VM_Images/resp.png)
+
+### 🐳 Local Container Graphs
+#### Local Container Memory Usage
+![Local Container Memory Usage](metrics_local/mem_local_black.png)
+
+#### Local Container Reboot Time
+![Local Container Reboot Time](metrics_local/reboot_local_black.png)
 
 
-VM Reboot Time
-
-
-VM Response Time
-
-
-🐳 Local Container Graphs
+#### Local Container Response Time
+![Local Container Response Time](metrics_local/resp_local_black.png)
 Local Container Memory Usage
 
 Local Container Reboot Time
