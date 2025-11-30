@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config
+  namespace: word-quiz-app
+data:
+  # API Gateway Configuration
+  QUIZ_SERVICE_URL: "http://quiz-service:5000"
+  METRICS_SERVICE_URL: "http://metrics-service:5001"
+  
+  # Environment
+  ENVIRONMENT: "production"
+  LOG_LEVEL: "info"

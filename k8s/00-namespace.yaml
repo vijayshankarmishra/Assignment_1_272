@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: word-quiz-app
+  labels:
+    name: word-quiz-app
+    environment: production

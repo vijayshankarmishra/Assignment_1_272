@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Missing Letters Word Quiz - Microservices Edition</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Missing Letters Word Quiz</h1>
+    <p class="subtitle">Microservices Architecture - Kubernetes Deployment</p>
+    <p class="subtitle">Pick the correct word. Underscores (_) are missing letters.</p>
+
+    <div id="game" class="card">
+      <div class="row">
+        <span class="label">Word:</span>
+        <span id="masked" class="masked">Loading...</span>
+      </div>
+      <div id="options" class="options"></div>
+      <div class="row info">
+        <span id="score">Score: 0</span>
+        <span id="round">Round: 0/10</span>
+      </div>
+      <div class="row">
+        <button id="nextBtn">Next Question</button>
+        <button id="statsBtn">View Stats</button>
+      </div>
+      <div id="feedback" class="feedback"></div>
+    </div>
+
+    <div id="stats" class="card stats-panel" style="display: none;">
+      <h2>📊 Statistics</h2>
+      <div id="statsContent">
+        <p>Loading statistics...</p>
+      </div>
+      <button id="closeStatsBtn">Close</button>
+    </div>
+
+    <div class="architecture-info">
+      <h3>🏗️ Architecture</h3>
+      <p>
+        <strong>Frontend:</strong> Nginx (You are here)<br>
+        <strong>API Gateway:</strong> Node.js/Express<br>
+        <strong>Quiz Service:</strong> Python/Flask (3 replicas)<br>
+        <strong>Metrics Service:</strong> Python/Flask (2 replicas)<br>
+        <strong>Orchestration:</strong> Kubernetes (Kind)
+      </p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
